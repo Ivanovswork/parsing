@@ -1,9 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 from fake_headers import Headers
-from pprint import pprint
 import json
-import re
+
 
 
 headers = Headers(os="win", browser="chrome")
